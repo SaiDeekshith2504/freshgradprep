@@ -42,7 +42,7 @@ const AboutSection = () => {
 
               {aboutContent.highlights.map((item, index) => (
                 <Box key={index} sx={{ display: "flex", mb: 1.5 }}>
-                  <CheckCircleOutlineIcon sx={{ mr: 1 , color: '#d7a449' }} />
+                  <CheckCircleOutlineIcon sx={{ mr: 1, color: 'accent.main' }} />
                   <Typography>{item}</Typography>
                 </Box>
               ))}
