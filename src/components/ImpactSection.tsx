@@ -35,7 +35,7 @@ const ImpactSection = () => {
                   sx={{
                     fontSize: { xs: 36, md: 48 },
                     fontWeight: 700,
-                    color: "accent.main",
+                    color: "common.white",
                     lineHeight: 1.1,
                   }}
                 >
